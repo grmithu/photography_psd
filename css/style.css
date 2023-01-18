@@ -1,0 +1,464 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+a{
+	text-decoration: none;
+}
+ul,ol{
+	list-style-type: none;
+}
+.clr{
+	clear: both;
+}
+.full-wrapper{
+	width: 100%;
+}
+.wrapper{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+/* ===========Header part CSS start=========== */
+.header{
+	background: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+.logo{
+	width: 270px;
+	float: left;
+	line-height: 90px;
+}
+.menu{
+	width: 900px;
+	float: left;
+	text-align: right;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+	padding-left: 44px;
+	line-height: 90px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+	color: #f5f5f5;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: all linear .3s;
+}
+.menu ul li:hover a {
+	color: #28b8d8;
+}
+.menu ul li.active a{
+	color: #28b8d8;
+}
+
+/* ============Banner section =============*/
+
+.banner{
+	background: url('../images/banner.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 330px;
+	padding-bottom: 250px;
+
+}
+.banner-text{
+	text-align: center;
+
+}
+.banner-text h1{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 50px;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: -11px;
+}
+.banner-text h3{
+	font-family: 'Roboto Slab', serif;
+	font-size: 40px;
+	color: #fff;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+.banner-text p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 300;
+}
+
+/* ============About section========== */
+.about{
+	padding-top: 80px;
+	padding-bottom: 78px;  
+	text-align: center;
+}
+.about h2{
+	font-family: 'Roboto Slab', serif;
+	font-size: 30px;
+	color: #444;
+	font-weight: 300;
+}
+.about p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #666;
+	font-weight: 400;
+	padding-top: 16px;
+}
+
+/* =============Service section============ */
+
+.head{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.head .h2{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+	color: #444;
+	text-transform: uppercase;
+	font-weight: 700;
+} 
+/* ---Service item section---- */
+.service-main{
+	padding-bottom: 83px;
+}
+.service-item{
+	width: 338px;
+	padding: 15px;
+	border: 1px solid #e3e3e3;
+	text-align: center;
+	float: left;
+	margin-right: 30px;
+}
+.service-item h3{
+	font-size: 17px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 17px;
+	color: #444;
+	font-weight: 700;
+}	
+.service-item p{
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	color: #666;
+	font-weight: 400;
+	padding-top: 3px;
+	padding-bottom: 1px;
+}
+.mr-none{
+	margin-right: 0 !important;
+}
+/* =======Gellery part====== */
+.head2 h2{
+	color: #fff;
+	position: relative;
+	display: inline-block;
+}
+.head h2:before{
+	position: absolute;
+	content: '';
+	width: 100px;
+	height: 1px;
+	background: #535353;
+	left: -115px;
+	top: 6px;
+}
+.head h2:after{
+	position: absolute;
+	content: '';
+	width: 100px;
+	height: 1px;
+	background: #535353;
+	right: -115px;
+	top: 6px;
+}
+.gal-bg{
+	background: #2c2c2c;
+	padding: 50px 0;
+}
+/* -------------- */
+.gallery-main{
+
+}
+.gal-item{
+	width: 25%;
+	float: left;
+}
+.gal-item img{
+	width: 100%;
+}
+.gallery-main{
+	padding-bottom: 60px;
+}
+
+/* ------------*/
+.btn{
+	text-align: center;
+}
+.btn a{
+	color: #a6a6a6;
+	font-size: 14px;
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	border: 1px solid #a6a6a6;
+	padding: 16px 20px;
+}
+.btn i{
+	margin-right: 7px;
+}
+
+/* ==========Journal section========= */
+.head3{
+	padding-top: 78px;
+}
+.head3 h2{
+	position: relative;
+	display: inline-block;
+}
+.head3 h2:before{
+	position: absolute;
+	content: '';
+	top: 8px;
+	left: -115px;
+	width: 100px;
+	height: 1px;
+	background: #d9d9d9;
+}
+.head3 h2:after{
+	position: absolute;
+	content: '';
+	top: 8px;
+	right: -115px;
+	width: 100px;
+	height: 1px;
+	background: #d9d9d9;
+}
+
+.journal-btn{
+	padding-top: 25px;
+}
+.journal-item{
+	width: 368px;
+	float: left;
+	margin-right: 30px;
+	border:1px solid #e3e3e3;
+	padding: 24px 0;
+	text-align: center;
+}
+.journal-item h3{
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	color: #444;
+	font-weight: 700;
+
+}
+.journal-item h5{
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	color: #999;
+	font-weight: 400;
+	padding-top: 10px;
+	padding-bottom: 23px;
+}
+.journal-item p{
+	padding-left: 25px;
+	/* text-align: justify; */
+	text-align: left;
+	padding-right: 30px;
+	padding-top: 19px;
+	font-family: 'Roboto', sans-serif;
+	color: #666;
+	font-weight: 400;
+	line-height: 22px;
+	font-size: 14px;
+}
+.btn-left{
+	text-align: left;
+	padding-left: 25px;
+	float: left;
+} 
+.btn-right{
+	float: right;
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 34px;
+}
+.btn-left a{
+	font-family: 'Roboto', sans-serif;
+	color: #999;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: 400;
+	border-bottom: 1px solid red; 
+	padding-bottom: 5px; 
+}
+
+.btn-right i{
+	margin-right: 4px;
+}
+.btn-right span{
+	font-family: 'Roboto', sans-serif;
+	color: #999;
+	font-size: 11px;
+}
+
+/* ============About section============ */
+.little-about{
+	padding-top: 80px;
+}
+.left-about{
+	width: 570px;
+	float: left;
+	margin-right: 30px;
+
+} 
+.left-about .head{
+	text-align: left;
+}
+.left-about .head h2{
+	position: relative;
+	display: inline-block;
+}
+.left-about .head h2:after{
+	position: absolute;
+	content: '';
+	top: 8px;
+	right: -115px;
+	width: 100px;
+	height: 1px;
+	background: #d9d9d9;
+}
+.left-about .head h2:before {
+    position: absolute;
+    content: '';
+    background: #fff;
+}
+
+
+.left-about-img{
+	width: 196px;
+	float: left;
+	margin-right: 27px;
+
+}
+.left-about-text{
+	width: 347px;
+	float: left;
+}
+.left-about-text h4{
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	color: #666;
+	font-weight: 300;
+	line-height: 28px;  
+}
+.left-about-text p{
+	font-family: 'Roboto', serif;
+	font-size: 14px;
+	color: #666;
+	font-weight: 400;
+	line-height: 24px;
+	padding-top: 14px;  
+}
+
+.right-about{
+	float: left;
+	width: 570px;
+}
+.service-icon{
+	width: 65px;
+	float: left;	
+}
+.service-text{
+	width: 505px;
+	float: left;
+}
+
+ .service-text h3{
+ 	font-family: 'Roboto Slab', serif;
+	font-size: 17px;
+	color: #444;
+	font-weight: 700;
+	text-transform: capitalize;  
+
+}	
+.service-text p{
+ 	font-family: 'Roboto', serif;
+	font-size: 14px;
+	color: #666;
+	font-weight: 400;
+	line-height: 22px;
+	padding-right: 20px;
+	padding-top: 10px;
+}	
+.service-right-item{
+	padding-bottom: 30px;
+}
+
+
+
+/*============ footer-bg Part CSS Start ======================*/
+.footer-bg {
+    background: #373737;
+    margin-top: 45px;
+    padding: 68px 0;
+}
+.footer-item {
+    width: 25%;
+    float: left;
+}
+.footer-item h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #f0f0f0;
+    font-weight: 700;
+    padding-bottom: 18px;
+}
+.footer-item p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #cacaca;
+    font-weight: 400;
+    line-height: 24px;
+    padding-right: 20px;
+}
+.location {
+    padding-top: 30px;
+}
+.location-icon {
+    float: left;
+    width: 10%;
+}
+.location-icon i {
+    color: #cacaca;
+    font-size: 14px;
+    line-height: 24px;
+}
+.location-text {
+    float: left;
+    width: 90%;
+}
+.location-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #cacaca;
+    font-weight: 400;
+    line-height: 24px;
+    padding-right: 55px;
+}
+.item2 p {
+    padding-bottom: 35px;
+}
